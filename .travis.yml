@@ -11,6 +11,7 @@ php:
   - nightly
 
 install:
+  - rm composer.lock
   - composer install --prefer-dist --no-interaction --no-progress
 
 script:
