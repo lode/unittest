@@ -7,10 +7,6 @@ class UnitTest extends TestCase {
 		$this->assertTrue(true);
 	}
 	
-	public function testFailure() {
-		$this->assertTrue(false);
-	}
-	
 	public function testAnything() {
 		$this->assertSame(42, 42);
 	}
